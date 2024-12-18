@@ -1,7 +1,7 @@
 from collision.CorrectRect import isCorrectRect, RectCorrectError
 from collision.CollisionRect import isCollisionRect
 from collision.intersectionAreaRect import intersectionAreaRect
-from collision.intersectionAreaMultiRect import intersectionAreaMultiRect
+from collision.intersectionAreaMultiRect import intersectionAreaMultiRect 
 def main():
     while True:
         num = int(input("Выберите: 1. isCorrectRect, 2. isCollisionRect, 3. intersectionAreaRect, 4. intersectionAreaMultiRect, 5. Выход:"))
