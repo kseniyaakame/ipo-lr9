@@ -9,7 +9,7 @@ def isCollisionRect(rec):
         return False
     n = len(rec)
 
-    for i in range(n):
+    for i in range(n): 
         for j in range(i + 1, n):
             # 1-ый прямоугольник
             x1, y1 = rec[i][0]
