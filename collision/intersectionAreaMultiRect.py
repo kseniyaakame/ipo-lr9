@@ -1,6 +1,6 @@
 from collision.CorrectRect import isCorrectRect , RectCorrectError
 from itertools import combinations
-
+ 
 def intersectionAreaMultiRect(rec):
     
     # Координаты пересечения
