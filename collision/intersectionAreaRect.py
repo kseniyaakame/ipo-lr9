@@ -1,6 +1,6 @@
 from collision.CorrectRect import isCorrectRect, RectCorrectError
 
-def intersectionAreaRect(rec):
+def intersectionAreaRect(rec): 
     area = 0  
 
     try:
